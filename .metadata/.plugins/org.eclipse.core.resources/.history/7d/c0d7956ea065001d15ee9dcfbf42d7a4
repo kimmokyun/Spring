@@ -1,0 +1,27 @@
+package part05_exam;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import part04_property.Service;
+
+public class SpringTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String path="part05_emam/di.xml";
+ApplicationContext context = new ClassPathXmlApplicationContext(path);
+Service svc = null;
+Service svc = (Service)context.getBean("svc");
+svc.prn();
+
+svc = (Service)context.getBean("svc");
+svc.prn();
+
+/*
+ * [출력결과]
+ * 레코드 출력
+ */
+	}
+
+}

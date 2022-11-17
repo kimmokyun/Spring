@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="sample01.MessageBeanKorea"/>
+    <fullyQualifiedTypeName name="sample01.MessageBeanEnglish"/>
+    <fullyQualifiedTypeName name="sample02.MessageBeanKorea"/>
+    <fullyQualifiedTypeName name="sample02.MessageBean"/>
+    <fullyQualifiedTypeName name="sample03.MessageBeanKorea"/>
+    <fullyQualifiedTypeName name="sample03.MessageFactory"/>
+    <fullyQualifiedTypeName name="part01.MessageBeanKorea"/>
+    <fullyQualifiedTypeName name="part01.MessageBeanEnglish"/>
+    <fullyQualifiedTypeName name="part01.MessageBean"/>
+    <fullyQualifiedTypeName name="part02.Service"/>
+    <fullyQualifiedTypeName name="part03_exam.Service"/>
+    <fullyQualifiedTypeName name="part03_exam.User"/>
+    <fullyQualifiedTypeName name="part04_property.Service"/>
+    <fullyQualifiedTypeName name="part05_exam.MemDaoImp"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="part05_exam.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="part01_xml.Service"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+</qualifiedTypeNameHistroy>

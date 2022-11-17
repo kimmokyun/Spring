@@ -1,0 +1,8 @@
+package part02_annotation;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration 
+class Config {
+
+}

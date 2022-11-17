@@ -1,0 +1,10 @@
+package sample01;
+
+public class MessageBeanKorea {
+
+	public void sayHello(String name) {
+		// TODO Auto-generated method stub
+System.out.printf("안녕, %ㄴ !!!", name);
+	}
+
+}

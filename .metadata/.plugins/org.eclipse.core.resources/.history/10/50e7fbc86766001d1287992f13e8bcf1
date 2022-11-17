@@ -1,0 +1,16 @@
+package part02;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloModelController {
+	
+	@RequestMapping
+public Model search(Model model) {
+	model.addAttribute("id","korea");
+	return model;
+	
+}
+}

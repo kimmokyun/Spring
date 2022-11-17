@@ -1,0 +1,30 @@
+package part04_property;
+
+import java.util.Random;
+
+public class ServiceImp implements Service{
+	private String name;
+	private Random ran;
+
+	public ServiceImp() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void setRan(Random ran) {
+		this.ran = ran;
+	}
+
+	@Override
+	public void prn1() {
+		
+	}
+
+	@Override
+	public void prn2() {
+		
+	}
+}

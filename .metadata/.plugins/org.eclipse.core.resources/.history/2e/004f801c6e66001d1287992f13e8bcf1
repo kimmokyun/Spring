@@ -1,0 +1,17 @@
+package part04;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+//http://localhost:8090/myapp/mem.htm
+
+@Controller
+public class HelloCommandController {
+
+	
+	@RequestMapping(value="/mem.htm")
+public String form() {
+		
+	return "part04/memForm";
+}
+}

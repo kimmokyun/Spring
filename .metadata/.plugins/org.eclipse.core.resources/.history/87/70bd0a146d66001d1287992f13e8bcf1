@@ -1,0 +1,16 @@
+package part04;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HelloCommandController {
+
+	
+	@RequestMapping
+public String form() {
+	
+	
+	return "part04/memForm";
+}
+}

@@ -1,0 +1,11 @@
+package part03;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class HelloModelAndViewController {
+	public ModelAndView search(ModelAndView mav) {
+		return mav;
+	}
+}
