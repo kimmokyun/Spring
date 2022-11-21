@@ -6,7 +6,7 @@ import dao.BoardDAO;
 import dto.BoardDTO;
 import dto.PageDTO;
 
-public class BoardServiceImp implements BoardDAO {
+public class BoardServiceImp implements BoardService {
 	private BoardDAO dao;
 public BoardServiceImp() {
 }
@@ -14,42 +14,37 @@ public void setDao(BoardDAO dao) {
 	this.dao = dao;
 }
 @Override
-public int count() {
+public int countProcess() {
 	// TODO Auto-generated method stub
 	return 0;
 }
 @Override
-public List<BoardDTO> list(PageDTO pv) {
+public List<BoardDTO> listProcess(PageDTO pv) {
 	// TODO Auto-generated method stub
 	return null;
 }
 @Override
-public void readCount(int num) {
+public void insertProcess(BoardDTO dto) {
 	// TODO Auto-generated method stub
 	
 }
 @Override
-public void save(BoardDTO dto) {
-	// TODO Auto-generated method stub
-	
-}
-@Override
-public BoardDTO updateNum(int num) {
+public BoardDTO updateSelectProcess(int num) {
 	// TODO Auto-generated method stub
 	return null;
 }
 @Override
-public void update(BoardDTO dto) {
+public void updateProcess(BoardDTO dto, String urlpath) {
 	// TODO Auto-generated method stub
 	
 }
 @Override
-public void delete(int num) {
+public void deleteProcess(int num, String urlpath) {
 	// TODO Auto-generated method stub
 	
 }
 @Override
-public String getFile(int num) {
+public String fileSelectprocess(int num) {
 	// TODO Auto-generated method stub
 	return null;
 }
