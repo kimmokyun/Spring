@@ -14,4 +14,5 @@ public BoardDTO updateNum(int num);
 public void  update(BoardDTO dto);
 public void delete(int num);
 public String getFile(int num);
+public BoardDTO content(int num);
 }

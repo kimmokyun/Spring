@@ -57,7 +57,7 @@
     <fullyQualifiedTypeName name="dto.BoardDTO"/>
     <fullyQualifiedTypeName name="dao.BoardDAO"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-    <fullyQualifiedTypeName name="service.BoardService"/>
     <fullyQualifiedTypeName name="controller.BoardController"/>
     <fullyQualifiedTypeName name="dto.PageDTO"/>
+    <fullyQualifiedTypeName name="service.BoardService"/>
 </qualifiedTypeNameHistroy>
