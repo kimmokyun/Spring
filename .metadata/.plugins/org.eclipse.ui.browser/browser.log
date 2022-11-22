@@ -56,3 +56,10 @@
 11월 21, 2022 20:09:41.655 [13556:12232:1121/200941.655:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
 11월 21, 2022 20:35:35.981 [13556:10432:1121/203535.981:ERROR:interface_endpoint_client.cc(690)] Message 1 rejected by interface blink.mojom.WidgetHost
 11월 21, 2022 20:35:36.973 [13556:10432:1121/203536.973:ERROR:device_event_log_impl.cc(215)] [20:35:36.973] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+11월 22, 2022 17:10:40.905 NEW SESSION
+11월 22, 2022 17:10:40.905 [11960:10620:1122/171040.902:ERROR:device_event_log_impl.cc(215)] [17:10:40.902] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+11월 22, 2022 17:10:41.60 [11960:10056:1122/171041.060:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+11월 22, 2022 17:32:12.606 [12096:7476:1122/173212.605:ERROR:device_event_log_impl.cc(215)] [17:32:12.605] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+11월 22, 2022 17:33:08.893 [12096:8116:1122/173308.893:ERROR:util.cc(129)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+11월 22, 2022 21:45:31.345 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)

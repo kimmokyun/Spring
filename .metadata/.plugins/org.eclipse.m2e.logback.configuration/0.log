@@ -5810,3 +5810,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2022-11-22 21:45:09,538 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-11-22 21:45:09,539 [Worker-189: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-11-22 21:45:09,539 [Worker-189: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-22 21:46:37,327 [Worker-187: Push to spring_workspace - origin] INFO  o.e.jgit.transport.TransportHttp - URI 'http://github.com/kimmokyun/Spring.git': following HTTP redirect #0  http://github.com/kimmokyun/Spring.git/ -> https://github.com/kimmokyun/Spring.git/
