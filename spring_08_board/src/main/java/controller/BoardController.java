@@ -76,7 +76,7 @@ public class BoardController {
 
 		}
 		dto.setIp(request.getRemoteAddr());
-
+		
 		service.insertProcess(dto);
 		// 답변글이면
 		if (dto.getRef() != 0) {
@@ -85,6 +85,43 @@ public class BoardController {
 			return "redirect:/list.sb";
 		}
 	}
+	@RequestMapping(value="/update.sb", method=RequestMethod.GET)
+	public ModelAndView updateMethod(int num, int currentPage, ModelAndView mav) {
+		mav.addObject("dto", service.updateSelectProcess(num));
+		mav.addObject("currentPage", currentPage);
+		mav.setViewName("board/update");
+		return mav;
+	}
+	@RequestMapping(value="/update.sb", method=RequestMethod.POST)
+	public String updateProMethod(BoardDTO dto, int currentPage, HttpServletRequest request) {
+		MultipartFile file = dto.getFilename();
+		if(!file.isEmpty()) {
+			UUID random = saveCopyFile(file,request);
+			dto.setUpload(random + "_" + file.getOriginalFilename());
+		}
+		service.updateProcess(dto, urlPath(request));
+		return "redirect:/list.sb?currentPage="+ currentPage;
+	} // end update
+	@RequestMapping("/delete.sb")
+	public String deletMethod(int num, int currentPage, HttpServletRequest request) {
+		service.deleteProcess(num,urlPath(request));
+		int totalRecord = service.countProcess();
+		this.pdto = new PageDTO(this.currentPage, totalRecord);
+		return "redirect:/list.sb?currentPage=" + this.pdto.getCurrentPage();
+		
+	 } // edn dele
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	private UUID saveCopyFile(MultipartFile file, HttpServletRequest request) {
 		String fileName = file.getOriginalFilename();

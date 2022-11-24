@@ -1,5 +1,0 @@
-package sample02;
-
-public class FFF {
-public void sayHello(String name);
-}

@@ -1,5 +1,0 @@
-package sample02;
-
-public class MessageBean {
-public void sayHello(String name);
-}

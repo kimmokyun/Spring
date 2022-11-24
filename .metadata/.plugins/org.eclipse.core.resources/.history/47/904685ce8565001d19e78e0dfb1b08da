@@ -1,7 +1,0 @@
-package part01;
-
-public class MessageBeanEnglish implements MessageBean {
-public MessageBeanEnglish () {
-	System.out.println("MessgeBeanEnglish");
-}
-}

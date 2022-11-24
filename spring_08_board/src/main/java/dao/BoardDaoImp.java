@@ -42,12 +42,12 @@ public BoardDTO updateNum(int num) {
 }
 @Override
 public void update(BoardDTO dto) {
-	// TODO Auto-generated method stub
+	sqlSession.update("board.update", dto);
 	
 }
 @Override
 public void delete(int num) {
-	// TODO Auto-generated method stub
+	sqlSession.delete("board.delete", num);
 	
 }
 @Override
@@ -58,5 +58,10 @@ public String getFile(int num) {
 @Override
 public BoardDTO content(int num) {
 	return sqlSession.selectOne("board.view",num);
+}
+@Override
+public void reStepCount(BoardDTO dto) {
+	sqlSession.update("board.reStepCount",dto);
+	
 }
 }
