@@ -2,7 +2,7 @@ $(document).ready(function() {
 $('#btn').click(process);
 });
 
-
+/*
 function process() {
 $.ajax ({
 type:'GET',
@@ -14,7 +14,21 @@ alert(xhr.status);
  }
 });
 }
+*/
 
+function process() {
+alert('test');
+$.ajax({
+type:'GET',
+url:'https://dapi.kakao.com/v3/search/book?target=title',
+headers:{"Authorization":"KakaoAK 14e9189cfa61f7cb2a326af2f21aa410"},
+dataType:'json',
+data:{"query":$('#search').val()},
+success:viewMessage
+
+
+});
+}
 
 
 function viewMessage(res) {

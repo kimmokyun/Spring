@@ -5,8 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<script defer src="ajaxview/part04/jquery.js"></script>
+<!--  <script defer src="ajaxview/part04/jquery.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script defer src="ajaxview/part04/book.js"></script>
 </head>
 <body>
 <h3>도서검색</h3>

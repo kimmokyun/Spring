@@ -28,22 +28,22 @@ public class SearchDaumController {
 		return "part04/form";
 
 	}
-	@ResponseBody
-	@RequestMapping(value="/searchOpen.do", method = RequestMethod.GET)
-	public String process(String query) throws MalformedURLException, IOException {
-		String url = "https://dapi.kakao.com/v3/search/book?target=title&query="+ URLEncoder.encode(query, "UTF-8");
-		HttpURLConnection con = (HttpURLConnection) new URL(url).openConnection();
-		con.setRequestProperty("Authorization", "KakaoAK 14e9189cfa61f7cb2a326af2f21aa410");
-		con.setRequestMethod("GET");
-		BufferedReader reader = new BufferedReader(new InputStreamReader(con.getInputStream()));
-		String input = null;
-		String total = "";
-		while((input = reader.readLine())!=null) {
-			total += input;
-			
-		}
-		System.out.println(total);
-		return total;		
-		
-	}
+//	@ResponseBody
+//	@RequestMapping(value="/searchOpen.do", method = RequestMethod.GET)
+//	public String process(String query) throws MalformedURLException, IOException {
+//		String url = "https://dapi.kakao.com/v3/search/book?target=title&query="+ URLEncoder.encode(query, "UTF-8");
+//		HttpURLConnection con = (HttpURLConnection) new URL(url).openConnection();
+//		con.setRequestProperty("Authorization", "KakaoAK 14e9189cfa61f7cb2a326af2f21aa410");
+//		con.setRequestMethod("GET");
+//		BufferedReader reader = new BufferedReader(new InputStreamReader(con.getInputStream()));
+//		String input = null;
+//		String total = "";
+//		while((input = reader.readLine())!=null) {
+//			total += input;
+//			
+//		}
+//		System.out.println(total);
+//		return total;		
+//		
+//	}
 }
