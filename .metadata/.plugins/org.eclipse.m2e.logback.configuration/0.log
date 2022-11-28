@@ -8765,3 +8765,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.fasterxml
 2022-11-28 21:38:52,902 [Worker-251: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-11-28 21:38:52,903 [Worker-251: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-11-28 21:38:52,904 [Worker-251: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-11-28 21:39:13,496 [Worker-251: Push to spring_workspace - origin] INFO  o.e.jgit.transport.TransportHttp - URI 'http://github.com/kimmokyun/Spring.git': following HTTP redirect #0  http://github.com/kimmokyun/Spring.git/ -> https://github.com/kimmokyun/Spring.git/
