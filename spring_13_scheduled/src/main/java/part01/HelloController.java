@@ -15,7 +15,7 @@ public class HelloController {
 	public String execute() {
 		return "part01/form";
 	}
-	@Scheduled(fixedDelay=1000)
+	//@Scheduled(fixedDelay=1000)
 	public void scheduledProcess() {
 		System.out.println(new Data() + "스케완료");
 	}
