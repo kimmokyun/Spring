@@ -18,9 +18,9 @@
 			websocket = new WebSocket("ws://localhost:8090/myapp/chatws.do");
 
 			//웹 소켓 이벤트 처리
-			websocket.onopen = onOpen;
-			websocket.onmessage = onMessage;
-			websocket.onclose = onClose;
+			websocket.onopen = onOpen; // 소켓서버에 연결이 되있을때
+			websocket.onmessage = onMessage; // 소켓서버에 메세지를 보냈을때
+			websocket.onclose = onClose; // 소켓서버 닫을떄
 		});
 
 		//전송 버튼을 누르 때 이벤트 처리
